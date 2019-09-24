@@ -34,6 +34,18 @@ namespace COMP2084_MusicStore.Controllers
             return View();
         }
 
+        public IActionResult Projects()
+        {
+           /* ViewBag.Xyz = "XYZ"; /*loosely typed, no declaration. or ViewBag = 44.44;*/
+                                 /* return View("AdvancedProjects");*/
+            return View();
+        }
+
+        /*public IActionResult Store()
+        {
+            return View();
+        }*/
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
